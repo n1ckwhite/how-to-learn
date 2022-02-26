@@ -1,3 +1,25 @@
+@import url(../vendor/normalize.css);
+@import url(font.css);
+/* Header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__main-illustration/header__main-illustration.css);
+@import url(../blocks/header/__square-pic/header__square-pic.css);
+
+
+/* Цвета */
+
+/* Серый фон: #1f1f1f; */
+/* Серый фон: #f2f2f2 */
+/* Синие ссылки и фигуры: #2f80ed */
+/* черный текст: #000000 */
+
+
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -6,21 +28,12 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  /* выше установили ограничения для секции */
-}
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -29,3 +42,5 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+
