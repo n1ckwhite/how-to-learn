@@ -1,4 +1,5 @@
 .rotation {
+  z-index: 1;
   transform-origin: center;
   animation: circle 20s infinite linear;
 }

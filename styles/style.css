@@ -1,3 +1,4 @@
+/*  normalize.css и шрифт Inter */
 @import url(../vendor/normalize.css);
 @import url(font.css);
 
@@ -104,12 +105,7 @@
 @import url(../blocks/khan/__quote/khan__quote.css);
 @import url(../blocks/khan/__title/khan__title.css);
 
-/* Цвета */
-
-/* Серый фон: #1f1f1f; */
-/* Серый фон: #f2f2f2 */
-/* Синие ссылки и фигуры: #2f80ed */
-/* черный текст: #000000 */
+@import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
