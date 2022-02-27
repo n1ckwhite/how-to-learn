@@ -1,0 +1,9 @@
+.khan__quote {
+  display: block;
+  max-width: 790px;
+  margin-top: 50px;
+}
+
+.khan__quote::before, .khan__quote::after {
+  content: '';
+}
