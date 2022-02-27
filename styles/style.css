@@ -32,6 +32,13 @@
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__title/cards__title.css);
 
+/* Digits */
+@import url(../blocks/digits/digits.css);
+@import url(../blocks/digits/table/table.css);
+@import url(../blocks/digits/table/__cell/table__cell.css);
+@import url(../blocks/digits/table/__heading/table__heading.css);
+@import url(../blocks/digits/table/__text/table__text.css);
+
 
 /* Цвета */
 
@@ -40,7 +47,7 @@
 /* Синие ссылки и фигуры: #2f80ed */
 /* черный текст: #000000 */
 
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0;
 }
