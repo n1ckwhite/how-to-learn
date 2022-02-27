@@ -86,6 +86,12 @@
 /* Oakley */
 @import url(../blocks/oakley/oakley.css);
 
+/* Feynman */
+@import url(../blocks/feynman/feynman.css);
+@import url(../blocks/feynman/__link/feynman__link.css);
+@import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
+@import url(../blocks/feynman/__title/feynman__title.css);
+
 /* Цвета */
 
 /* Серый фон: #1f1f1f; */
