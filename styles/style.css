@@ -5,6 +5,9 @@
 @import url(../blocks/logo/_place/logo_place_header.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
 
+/* Rotation */
+@import url(../blocks/rotation/rotation.css);
+
 /* Header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);

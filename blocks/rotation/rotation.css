@@ -1,0 +1,13 @@
+.rotation {
+  transform-origin: center;
+  animation: circle 20s infinite linear;
+}
+
+@keyframes circle {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
