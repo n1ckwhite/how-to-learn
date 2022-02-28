@@ -3,4 +3,9 @@
   height: 38px;
   background-size: contain;
   background-position: center;
+  transition: opacity .2s linear;
+}
+
+.resources__logo:hover {
+  opacity: .3;
 }
