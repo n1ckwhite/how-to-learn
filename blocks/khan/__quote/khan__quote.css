@@ -1,9 +1,9 @@
 .khan__quote {
+  margin: 0;
   display: block;
   max-width: 790px;
   margin-top: 50px;
-}
-
-.khan__quote::before, .khan__quote::after {
-  content: '';
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 400;
 }
