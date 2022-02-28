@@ -1,3 +1,5 @@
 .table_theme_dark {
+  list-style-type: none;
+  padding: 0;
   z-index: 2;
 }

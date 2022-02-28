@@ -1,6 +1,6 @@
 .footer__column-link {
-  display: block;
   line-height: 18px;
+  font-weight: 400;
   font-size: 18px;
   color: #fff;
   text-decoration: none;
@@ -8,6 +8,10 @@
   display: flex;
   align-items: center;
   transition: opacity .2s linear;
+}
+
+.footer__column-link:first-child {
+  margin-top: 0;
 }
 
 .footer__column-link:hover {
