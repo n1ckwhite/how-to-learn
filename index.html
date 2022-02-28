@@ -12,7 +12,7 @@
       <img src="images/logo_place_header.svg" alt="Яндекс Практикум" class="logo logo_place_header">
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-      <a href="#" class="header__link">Узнать →</a>
+      <a href="#techniques" class="header__link">Узнать &#8594;</a>
       </p>
       <img src="images/header-image.png" alt="«Опять двойка» — картина художника Фёдора Решетникова" class="header__main-illustration">
       <div class="header__square-pic rotation"></div>
@@ -22,19 +22,19 @@
         <div class="two-columns">
           <h3 class="two-columns__brief">Главные проблемы в обучении</h3>
           <div class="two-columns__main-text">
-            <div class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.
-            </div>
-            <div class="two-columns__paragraph">
+            <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.
+            </p>
+            <p class="two-columns__paragraph">
               <span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?
-            </div>
-            <div class="two-columns__paragraph">
+            </p>
+            <p class="two-columns__paragraph">
               Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.
-            </div>
+            </p>
           </div>
         </div>
       </section>
 
-      <section class="techniques">
+      <section class="techniques" id="techniques">
         <h2 class="section-title">Техники обучения</h2>
         <h3 class="section-subtitle">Пять практик от Барбары Оакли</h3>
         <div class="cards">
@@ -88,6 +88,7 @@
                   title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen>
+                  Ваш браузер не поддерживает iframe!
             </iframe>
           <iframe
                   class="video__iframe"
@@ -97,6 +98,7 @@
                   title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen>
+                  Ваш браузер не поддерживает iframe!
             </iframe>
         </div>
       </section>
@@ -114,7 +116,7 @@
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <h3 class="feynman__subtitle">Выучить и не забыть</h3>
-        <a href="#" class="feynman__link">Подробнее →</a>
+        <a href="https://lifehacker.ru/metod-fejnmana/" target="_blank" class="feynman__link">Подробнее &#8594;</a>
       </section>
 
       <section class="digits">
@@ -168,7 +170,7 @@
           <p class="khan__quote-author-subline">Кинорежиссёр, продюсер</p>
           <div class="khan__book-container">
             <img src="images/book.png" alt="книга Весь мир - школа" class="khan__book-pic">
-            <a href="#" class="khan__buy-link">Купить книгу →</a>
+            <a href="https://www.labirint.ru/books/483575/" target="_blank" class="khan__buy-link">Купить книгу &#8594;</a>
           </div>
         </div>
       </section>
@@ -224,12 +226,12 @@
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
-        <div class="resources__logo-zone">
-          <img src="images/resources/1.svg" alt="Arzamas" class="resources__logo">
-          <img src="images/resources/2.svg" alt="N + 1" class="resources__logo">
-          <img src="images/resources/3.svg" alt="STRELKA" class="resources__logo">
-          <img src="images/resources/4.svg" alt="ПОЛКА" class="resources__logo">
-        </div>
+        <ul class="resources__logo-zone">
+          <li><a href="https://arzamas.academy/" target="_blank"><img src="images/resources/1.svg" alt="Arzamas" class="resources__logo"></a></li>
+          <li><a href="https://nplus1.ru/" target="_blank"><img src="images/resources/2.svg" alt="N + 1" class="resources__logo"></a></li>
+          <li><a href="https://strelka.com/" target="_blank"><img src="images/resources/3.svg" alt="STRELKA" class="resources__logo"></a></li>
+          <li><a href="https://polka.academy/" target="_blank"><img src="images/resources/4.svg" alt="ПОЛКА" class="resources__logo"></a></li>
+        </ul>
       </section>
     </main>
     <footer class="footer">
@@ -240,19 +242,25 @@
         </div>
         <div class="footer__column footer__column_content_info">
           <p class="footer__column-heading">О Практикуме</p>
-          <div class="footer__column-links">
-            <a href="#" class="footer__column-link">Главная</a>
-            <a href="#" class="footer__column-link">Концепция</a>
-            <a href="#" class="footer__column-link">Наставники</a>
-          </div>
+          <ul class="footer__column-links">
+            <li> <a href="https://practicum.yandex.ru/profile/web-plus/" target="_blank" class="footer__column-link">Главная</a></li>
+           <li><a href="#" class="footer__column-link">Концепция</a></li>
+            <li><a href="#" class="footer__column-link">Наставники</a></li>
+          </ul>
         </div>
         <div class="footer__column footer__column_content_social">
           <p class="footer__column-heading">Соцсети</p>
-          <div class="footer__column-links">
-            <a href="#" class="footer__column-link"><img src="images/facebook_color_white.svg" alt="facebook" class="footer__social-icon">Facebook</a>
-            <a href="#" class="footer__column-link"><img src="images/vk_color_white.svg" alt="vk" class="footer__social-icon">ВКонтакте</a>
-            <a href="#" class="footer__column-link"><img src="images/instagram_color_white.svg" alt="instagram" class="footer__social-icon">Instagram</a>
-          </div>
+          <ul class="footer__column-links">
+            <li>
+              <a href="https://www.facebook.com/yandex.praktikum" target="_blank" class="footer__column-link"><img src="images/facebook_color_white.svg" alt="facebook" class="footer__social-icon">Facebook</a>
+            </li>
+            <li>
+              <a href="https://vk.com/yandex.praktikum" target="_blank" class="footer__column-link"><img src="images/vk_color_white.svg" alt="vk" class="footer__social-icon">ВКонтакте</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/yndx.practicum/" target="_blank" class="footer__column-link"><img src="images/instagram_color_white.svg" alt="instagram" class="footer__social-icon">Instagram</a>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
